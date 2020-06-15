@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo "*******************************"
+echo "*  Fetching Filbeat v 7.7.1   *"
+echo "*******************************"
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.7.1-linux-x86_64.tar.gz
+
+echo "Fetch complete"
+echo "Unarchiving Filebeat binary"
+
+tar xzvf filebeat-7.7.1-linux-x86_64.tar.gz
+
+echo "Maybe it works? ¯\_(ツ)_/¯"
