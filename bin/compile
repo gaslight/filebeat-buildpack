@@ -11,3 +11,16 @@ echo "Unarchiving Filebeat binary"
 tar xzvf filebeat-7.7.1-linux-x86_64.tar.gz
 
 echo "Maybe it works? ¯\_(ツ)_/¯"
+
+echo "Yeah. I think that did it."
+
+echo "And let's ls the filebeat directory now"
+
+cd filebeat-7.7.1-linux-x86_64
+
+echo "Changed directory into filebeat-7.7.1-linux-x86_64"
+echo "Listing files"
+
+ls 
+
+exit 0
